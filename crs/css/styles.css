@@ -1,0 +1,374 @@
+.hero {
+  background-image: url("../image/hero_bg.png");
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  block-size: cover;
+  height: 100vh;
+}
+.hero-menu-bar {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+.hero-menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-list {
+  display: flex;
+  gap: 30px;
+}
+.hero-item a,
+.hero-tel {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: black;
+}
+.hero-title {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: "Rouge Script", cursive;
+  font-size: 250px;
+  font-weight: 400;
+  line-height: 240px;
+}
+.hero-item a:hover {
+  border-bottom: 3px solid black;
+}
+.hero-title span {
+  display: block;
+  font-family: "Roboto Condensed";
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 0px;
+  text-align: right;
+}
+
+.tail {
+  max-width: 900px;
+}
+.title {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 375px;
+  font-family: "Rouge Script", cursive;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 74px;
+  color: #e2ab3f;
+}
+.title span {
+  display: block;
+  text-align: right;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 28.13px;
+  color: #000000;
+}
+
+.text {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  color: #000;
+  width: 300px;
+}
+.tail-wrapper {
+  display: flex;
+  gap: 50px;
+}
+.tail-descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.trip {
+  max-width: ;
+}
+
+.trip {
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+  margin-left: auto;
+  max-width: 1200px;
+}
+.trip__title {
+  max-width: 285px;
+}
+.trip__subtitle {
+  font-family: " Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  color: #000;
+}
+
+.trip__descr {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+}
+
+.trip__title {
+  max-width: 285px;
+}
+
+.trip__btn {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px solid #e2ab3f;
+  background-color: transparent;
+  color: #000;
+}
+
+.hotel__wrapper {
+  display: flex;
+  gap: 10px;
+}
+.hotel__text {
+  max-width: 600px;
+}
+.hotel__descr {
+  margin-bottom: 43px;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+}
+.hotel__images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hotel__title {
+  max-width: 260px;
+  margin-left: 0;
+}
+
+.price__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.price__service h3 {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+}
+
+.price__text {
+  max-width: 550px;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+}
+.price__baloon {
+  position: relative;
+}
+.price_img1 {
+  position: absolute;
+  top: -64px;
+  right: -113px;
+}
+
+.price_img2 {
+  position: absolute;
+  top: 244px;
+  right: 8px;
+}
+.price_img3 {
+  position: absolute;
+  top: 136px;
+  right: 70px;
+}
+.price__text {
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.price__wrapper h3 {
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.price__date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price__request h3 {
+  max-width: 100px;
+}
+.price__title {
+  margin: 0;
+}
+.price__subtitle {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.price__form input {
+  border: 1px solid rgba(238, 34, 34, 0.733);
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.price__form input::placeholder {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.09px;
+  color: #000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.price__btn {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 1px solid #e2ab3f;
+  padding: 15px 25px;
+  ont-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.13px;
+  text-align: center;
+  background-color: transparent;
+}
+.footer {
+  background-image: url(../image/footer_bg.png);
+  height: 100vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  block-size: cover;
+  height: 100vh;
+}
+.footer {
+  padding-top: 130px;
+  background-image: url("../images/footer_bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer__inner {
+  position: relative;
+}
+.footer__contacts {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.footer__title {
+  margin-bottom: 30px;
+}
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer__link a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer__subtitle {
+  font-size: 86px;
+  font-family: "Rouge Script", cursive;
+  line-height: 114.98px;
+}
+@media screen and (max-width: 480px) {
+  .hero-list,
+  .hero-tel {
+    display: none;
+  }
+  .hero__menu-bar {
+    display: block;
+    margin-left: auto;
+  }
+  .hero-title {
+    margin-top: 75px;
+    font-size: 107px;
+    line-height: 101px;
+  }
+  .hero-title span {
+    font-size: 29px;
+  }
+  .title {
+    margin-bottom: 40px;
+    max-width: 283px;
+    font-size: 70px;
+    line-height: 51px;
+  }
+
+  .title span {
+    font-size: 18px;
+    line-height: 20.13px;
+  }
+  .tail-wrapper img {
+    display: none;
+  }
+
+  .tail-descr {
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .trip {
+    display: block;
+    max-width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .trip__title {
+    max-width: 193px;
+  }
+
+  .trip__slider {
+    display: none;
+  }
+}
